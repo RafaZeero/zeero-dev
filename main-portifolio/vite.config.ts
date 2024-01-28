@@ -10,14 +10,6 @@ export default defineConfig({
     }
   },
   server: {
-    port: 3000,
-    proxy: {
-      // with RegEx: http://localhost:3000//contas-casa/ -> https://contas-casa.vercel.app/
-      '^/projetos/contas-casa/.*': {
-        target: 'https://contas-casa.vercel.app',
-        changeOrigin: true,
-        rewrite: path => path.replace(/^\/projetos\/contas-casa/, '')
-      }
-    }
+    port: 3000
   }
 });
