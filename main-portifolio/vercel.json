@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/projetos/contas-casa",
+      "destination": "https://contas-casa.vercel.app"
+    }
+  ]
+}
