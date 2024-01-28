@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/contas-casa*",
+      "source": "/contas-casa/*",
       "destination": "https://contas-casa.vercel.app/*"
     }
   ]
